@@ -1,6 +1,6 @@
 import random
-from gridworld import GridWorld, Player
-from drives import DriveCORE
+from phase1.environment import GridWorld, Player
+from phase1.value_function import DriveCORE
 
 
 def choose_action(world: GridWorld, player_idx: int, drives: DriveCORE) -> str:
